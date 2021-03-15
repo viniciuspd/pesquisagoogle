@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    display: flex
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.logo_pesquisa{
+    margin-top: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    height: 115px;
+}
+
+.head_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    height: 65px;
+    flex: 1;
+}
+
+.parte_cima{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.parte_cima img{
+    margin-right: 40px;
+    margin-left: 15px;
+    width: 92px;
+    height: 30px;
+}
+
+.parte_cima input[type=text]{
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid rgb(230, 230, 230 );
+    padding: 10px;
+    padding-left: 20px;
+    width: 692px;
+    height: 45px;
+}
+
+.parte_cima img.lupa{
+    width: 31px;
+    height: 25px;
+    position: absolute;
+    right: 90px;
+}
+
+.parte_cima img.micro{
+    width: 34px;
+    height: 29px;
+    position: absolute;
+    right: 130px;
+}
+
+.parte_cima img.teclado{
+    width: 19px;
+    height: 11px;
+    position: absolute;
+    right: 180px;
+}
+.parte_cima img.teclado:hover{
+    cursor: pointer;
+}
+.parte_cima img.micro:hover{
+    cursor: pointer;
+}
+.parte_cima img.lupa:hover{
+    cursor: pointer;
+}
+.desenho{
+    margin-top: 10px;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.quadrado{
+    margin: 1px;
+    width: 4px;
+    height: 4px;
+    background-color: rgb(115, 115, 115);
+}
+
+.desenho:hover{
+    cursor: pointer;
+}
+
+.desenho:hover .quadrado{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.photo img{
+    margin-top: 15px;
+    margin-right: 38px;
+    border: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.photo img:hover{
+    cursor:pointer;
+}
+
+.parte_baixo{
+    display: flex;
+    flex: 1;
+}
+
+.parte_baixo nav{
+    display: flex;
+    align-items: flex-end;
+    flex: 1;    
+}
+
+.parte_baixo nav ul{
+    margin-bottom:0px;
+}
+
+.parte_baixo nav ul li{
+    display: inline-block;
+}
+
+.parte_baixo nav ul li a{
+    display: block;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.parte_baixo nav ul li:first-child{
+    margin-left: 115px;
+}
+
+.a1{
+    border-bottom: 3px solid #1a73e8;
+}
+
+.parte_baixo nav ul li.a1 > a{
+    color: #1a73e8;
+}
+
+
+.resultados{
+    border-top: 1px solid rgb(230, 230, 230);
+    width: 100%;
+    display: flex;
+}
+
+.resultados .container p{
+    margin-left: 170px;
+    color: #70757a;
+    font-size: 14px;
+}
+
+.resultado_da_pesquisa{
+    margin-left: 170px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pesquisa_dado{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.url{
+    margin-bottom: 10px;
+}
+
+.url a{
+    font-size: 14px;
+    color: #202124;
+    text-decoration: none;
+}
+
+.titulo_link a{
+    font-size: 20px;
+    color: #1a0dab;;
+    text-decoration: none;
+}
+.desc_link p{
+    margin-top: 8px;
+    color: #4d5156;
+    font-size:14px;
+}
+
+.resultado_da_pesquisa h1{
+    font-weight: normal;
+    font-size:20px;
+    color: #202124;
+}
+
+.mais_resultados{
+    margin-bottom: 50px;
+    width: 400px;
+    display: flex;
+    justify-content:space-between ;
+}
+
+.partes_links{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.partes_links a{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #1a0dab;
+    text-decoration: none;
+
+}
